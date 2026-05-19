@@ -3,4 +3,8 @@ const BiyeKiKorbe = (ageUser: number) => {
     const result = ageUser >= 22 ? "You Are An Adult" : "You Are Not An Adult";
     return result;
 }
-console.log(BiyeKiKorbe(20));   
+console.log(BiyeKiKorbe(20));
+
+const userTheme = undefined;
+const SelectedTheme = userTheme ?? "Light Theme";
+console.log(SelectedTheme);

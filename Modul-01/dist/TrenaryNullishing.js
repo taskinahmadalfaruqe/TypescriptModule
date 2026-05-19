@@ -6,4 +6,7 @@ const BiyeKiKorbe = (ageUser) => {
     return result;
 };
 console.log(BiyeKiKorbe(20));
+const userTheme = undefined;
+const SelectedTheme = userTheme ?? "Light Theme";
+console.log(SelectedTheme);
 //# sourceMappingURL=TrenaryNullishing.js.map
